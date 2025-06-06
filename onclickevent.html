@@ -1,0 +1,15 @@
+<html>
+<head>
+   <title>On-click event</title>
+</head>
+<body>
+    <p id="first">Hii user</p>
+    <button id="change">change text</button>
+    <script>
+        document.getElementById("change").onclick = function(){
+          //  alert("button clicked"); //alert popup
+            document.getElementById("first").innerHTML = "welcome"; // change text
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+
+<html>
+<head>
+    <title>variable</title>
+</head>
+<body>
+    <input id="input" type="text">
+    <button id="button">click me</button>
+    <p id="para">this is paragraph</p>
+    <script>
+       document.getElementById("button").onclick = function(){
+        var val="";
+        val = document.getElementById("input").value;
+        document.getElementById("para").innerHTML = val;
+       }
+    </script>
+</body>
+</html>

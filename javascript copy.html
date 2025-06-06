@@ -1,0 +1,14 @@
+<html>
+<head>
+   <title>Changing website content </title>
+</head>
+<body>
+    <p id="para">hii user</p>
+    <button id="add">click me</button>
+    <script>
+        document.getElementById("add").onclick = function(){
+            document.getElementById("para").innerHTML =  "hello" +document.getElementById("para").innerHTML + " welcome";
+        }
+    </script>
+</body>
+</html>
